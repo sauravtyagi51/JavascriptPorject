@@ -2,7 +2,13 @@
 <head>
 </head>
 <body>
-<h1>Welcome
+<h1 id="header" onClick="change()">Welcome
 </h1>
+<script>
+	function change(){
+		a=document.getElementById('header').innerHTML;
+		document.getElementById('header').innerHTML=a+"Saurav";
+	}
+	</script>
 </body>
 </html>
